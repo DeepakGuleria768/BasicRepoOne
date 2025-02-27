@@ -3,5 +3,5 @@ inline fun sum_One(a:Int,b:Int):Int{
 }
 
 fun main() {
-    val result = sum_One(1,1)
+    val result = sum_One(1,2)
 }
