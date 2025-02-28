@@ -8,6 +8,7 @@ interface Rules{
     fun repeat()
 
     // default function
+    // default methods are by default open
     fun makeSound(){
         println("wooooo....")
     }
