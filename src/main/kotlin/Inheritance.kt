@@ -57,10 +57,10 @@ fun main() {
     dog.bark()
     dog.eat()
     // multilevel inheritance
-    val puppy = Puppy()
-    puppy.eat()
-    puppy.bark()
-    puppy.weep()
+    val puppy_One = Puppy()
+    puppy_One.eat()
+    puppy_One.bark()
+    puppy_One.weep()
     // hierarchical inheritance
     val cow = Cow()
     cow.eat()
