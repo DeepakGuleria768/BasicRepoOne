@@ -9,7 +9,7 @@ interface Rules{
 
     // default function
     fun makeSound(){
-        println("wooooooooo....")
+        println("wooooo....")
     }
 }
 
@@ -43,5 +43,7 @@ fun main() {
     a.sleep()
     a.code()
     a.repeat()
+
+    println("End of Interfaces")
 }
 
