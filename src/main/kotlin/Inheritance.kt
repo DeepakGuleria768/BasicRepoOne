@@ -35,6 +35,7 @@ class Puppy() : Dog() {
 
 // hierarchical inheritance
 class cat() : Animal() {
+
     fun mew() {
         println("mewwww....")
     }
