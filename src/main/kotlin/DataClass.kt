@@ -29,7 +29,7 @@ fun main() {
     // atleast one primary constructor with one parameter atleast
     // Data class not be open , abstract , inner or sealed but they are by default final
 
-    val person = Person("Deepak Guleria",40000.0f)
+    val person = Person("Deepak Guleria",50000.0f)
     val person2 = person.copy() // Deepak Guleria 40000.0
     val person3 = person.copy(name = "Karan")
     val person4 = person.copy(name = "Daman")
