@@ -4,6 +4,7 @@
 //4. copy method automatically generated
 
 data class Users(val name: String, val age: Int)
+data class Person(val name:String,val salary:Float) // use this class to understand copy
 
 fun main() {
     //1. it automatically generates the getter and setters for the all properties
@@ -27,4 +28,10 @@ fun main() {
     //Rules for Data class
     // atleast one primary constructor with one parameter atleast
     // Data class not be open , abstract , inner or sealed but they are by default final
+
+    val person = Person("Deepak Guleria",40000.0f)
+    val person2 = person.copy() // Deepak Guleria 40000.0
+    val person3 = person.copy(name = "Karan")
+    val person4 = person.copy(name = "Daman")
+    println(person4)
 }
