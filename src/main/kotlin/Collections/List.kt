@@ -2,10 +2,21 @@ package Collections
 
 fun main() {
 
+
+    /*factory methods                Interfaces                actual implementations
+    ------------------          ----------------               -------------------------
+* listOf(1, 2, 3)	              List<Int>	                ArrayList<Int>
+mutableListOf(1, 2, 3)	         MutableList<Int>	        ArrayList<Int>
+mapOf("A" to 1, "B" to 2)	     Map<String, Int>	        LinkedHashMap<String, Int>
+mutableMapOf("X" to 10)	        MutableMap<String, Int>	    LinkedHashMap<String, Int>
+setOf(1, 2, 3)	                Set<Int>	                LinkedHashSet<Int>
+mutableSetOf(1, 2, 3)	        MutableSet<Int>	             LinkedHashSet<Int>*/
+
+
     // listOf() --> is a factory method (helper method)
     // return the instance of the List<T>
     // interface List<out T>:Collection<E>()
-    val Teachers = listOf("Tarun", "Ruhi", "Madhana", "Aushmita", "Urvashi", "Ruhi", "Ruhi")
+    val Teachers: List<String> = listOf("Tarun", "Ruhi", "Madhana", "Aushmita", "Urvashi", "Ruhi", "Ruhi")
     val Students = listOf("Deepak", "Ankita", "Karan", "Shubam", "sanjay")
     // return me the size of the list starting from 1 to n
     println(Students.size)
