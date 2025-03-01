@@ -89,5 +89,5 @@ fun main() {
     }
     println(numbersTwo)
 
-    ArrayList<>
+    //0ArrayList<>--> use arrayListOf() function and contain asll method of collection and list
 }
