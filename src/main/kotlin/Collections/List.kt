@@ -59,7 +59,7 @@ fun main() {
 
 
     // clear()--> used to clear a whole collection
- //   numbers.clear()
+    //   numbers.clear()
 
     // add at specific index --> index and value insert new value at the specific index
 //    numbers.add(1, 9)
@@ -79,10 +79,10 @@ fun main() {
     // mutable list iterator
     val numbersTwo = mutableListOf(1, 2, 3, 4, 5) // Define mutable list
     val myMutableIterator: MutableIterator<Int> = numbersTwo.iterator()
-    while(myMutableIterator.hasNext()){
+    while (myMutableIterator.hasNext()) {
         // next method is inside the Iterator method
-       val num = myMutableIterator.next()
-        if(num%2==0){
+        val num = myMutableIterator.next()
+        if (num % 2 == 0) {
             // remove() method is present in the MutableIterator interface
             myMutableIterator.remove() // remove even number saftly
         }
